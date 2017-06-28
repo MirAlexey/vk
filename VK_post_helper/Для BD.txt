@@ -46,7 +46,7 @@ insert into GroupTagTB  values ('2','3');
 
 select * from TagTable where id_tag in (select id_tag_grouptagtb from GroupTagtb where id_group_grouptagtb = 1);
 
-insert into PostTable (name_post, text_post,attach_post) values ('Υξ','Υξυξυξυξυ πώ υπώπώ υπυπώυπώ υπώ!','123456');
+insert into PostTable (name_post, text_post,attach_post) values ('Γ•Γ®','Γ•Γ®ΓµΓ®ΓµΓ®ΓµΓ®Γµ Γ°ΓΎ ΓµΓ°ΓΎΓ°ΓΎ ΓµΓ°ΓµΓ°ΓΎΓµΓ°ΓΎ ΓµΓ°ΓΎ!','123456');
 
 ----------------------------------------------------------------
 select * 
@@ -73,7 +73,6 @@ insert into posttagforgrouptb  values ('1','1');
 
 select last_insert_rowid();
 
-iloveyouiloveyou
-tenera5@yandex.ru
+
 
 insert into SendPostTB (id_post_fk_posttable, id_group_fk_grouptable, id_account_fk_accounttable,data_time,id_post_vk) values (1,2,3,datetime(),'654654');
