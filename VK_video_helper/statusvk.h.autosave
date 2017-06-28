@@ -1,0 +1,18 @@
+#ifndef STATUSVK_H
+#define STATUSVK_H
+
+#include <QObject>
+
+class StatusVK : public QObject
+{
+    Q_OBJECT
+public:
+    explicit StatusVK(QObject *parent = 0);
+    virtual  bool  RunOperation(){}
+signals:
+
+public slots:
+
+};
+
+#endif // STATUSVK_H

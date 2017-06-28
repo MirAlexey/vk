@@ -1,0 +1,4 @@
+-----//-----
+Group out:97840321
+Group in:97908599
+Path for save:D:\\Qt\\
